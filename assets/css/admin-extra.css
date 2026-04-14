@@ -1,0 +1,22 @@
+/* Admin panel extra styles - loaded in addition to main admin layout */
+
+/* Pagination */
+.page-link { border-radius: 6px !important; margin: 0 2px; font-size: 0.82rem; border-color: #e5e7ef; color: #555; }
+.page-link:hover { background: var(--primary, #e31837); border-color: var(--primary, #e31837); color: #fff; }
+.page-item.active .page-link { background: var(--primary, #e31837); border-color: var(--primary, #e31837); }
+
+/* Form check */
+.form-check-input:checked { background-color: var(--primary, #e31837); border-color: var(--primary, #e31837); }
+
+/* Breadcrumb */
+.breadcrumb { font-size: 0.82rem; }
+.breadcrumb-item a { color: var(--primary, #e31837); text-decoration: none; }
+
+/* Table row hover */
+.table tbody tr:hover td { background: #f8f9ff !important; }
+
+/* Image preview on upload */
+.img-preview { max-width: 100%; border-radius: 8px; margin-top: 8px; }
+
+/* Toggle switch */
+.form-switch .form-check-input { width: 2.2em; height: 1.1em; cursor: pointer; }
